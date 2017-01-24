@@ -15,6 +15,24 @@ body {
     padding: 0;
     font-family: sans-serif;
     font-size: 16px;
+    text-align: center;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;;
+    color: #fff;
+    margin-top: 15px;
+    padding: 15px 26px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align: center;
+    width: 85%;
+    cursor: pointer;
+    transition: background-color .1s ease-in-out;
 }
 
 a.pick-theme:link,
