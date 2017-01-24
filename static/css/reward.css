@@ -9,59 +9,23 @@ html {
 }
 
 body {
-    background-color: #f6f6f6;
-    color: #4a5160;
+    background-color: transparent;
+    color: #fff;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     font-size: 16px;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
+a.pick-theme:link,
+a.pick-theme:visited {
+    color: #fff;
+    font-size: .9rem;
+    text-decoration: none;
 }
 
-input[type="text"] {
-    margin-bottom: 20px;
-    padding: 5px 10px;
-    border: 1px solid #e0e0e0;
-    border-radius: 4px;
-    min-width: 240px;
-    height: 35px;
-    font-size: 1rem;
-}
-
-input[type="text"]:focus {
-    border-color: #37A3CC;
-}
-
-input[type="submit"] {
-    margin-top: 10px;
-}
-
-.button {
-    position: relative;
-	display: block;
-    background-color: #0095dd;
-	color: #fff;
-	padding: 10px 36px;
-    border: 2px solid #0092cc;
-	border-radius: 4px;
-	font-size: 1rem;
-	text-align: center;
-    width: 240px;
-	cursor: pointer;
-	transition: background-color .1s ease-in-out;
-}
-
-.button:hover,
-.button:focus {
-    background-color: #33aae4;
-    border-color: #0092cc;
-}
-
-.button:active {
-    position: relative;
-    top: 1px;
+a.pick-theme:hover,
+a.pick-theme:focus {
+    color: #333;
+    text-decoration: none;
 }
