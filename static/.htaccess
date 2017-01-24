@@ -1,5 +1,0 @@
-Options +FollowSymLinks
-RewriteEngine on
-
-# Redirect this entire domain, all-aboard-remote.herokuapp.com, to the domain mozilla.thinksmart.com
-RedirectMatch 301 ^(.*)$ https://mozilla.thinksmart.com/
